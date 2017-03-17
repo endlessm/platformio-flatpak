@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+set -e
+
+prefix=$(cat prefix)
+
+appdir="${prefix}/share/applications"
+olddesktop="${appdir}/atom.desktop"
+newdesktop="${appdir}/org.platformio.Ide.desktop"
+sed -i -e 's/Icon=.*/Icon=org.platformio.Ide/' "${olddesktop}"
+mv "${olddesktop}" "${newdesktop}"
+install -D 'org.platformio.Ide.appdata.xml' "${prefix}/share/appdata/org.platformio.Ide.appdata.xml"
+install -D "org.platformio.Ide.png" "${prefix}/share/icons/hicolor/128x128/apps/org.platformio.Ide.png"

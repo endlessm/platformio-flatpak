@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+	<id>org.platformio.Ide.desktop</id>
+	<metadata_license>CC-BY-SA-3.0</metadata_license>
+	<project_license>MIT</project_license>
+	<name>PlatformIO IDE</name>
+	<summary>The next-generation integrated development environment for IoT</summary>
+	<description>
+		<p>
+			It's built on top of GitHub's Atom "hackable" text editor.
+		</p>
+	</description>
+	<screenshots>
+		<screenshot type="default">
+			<image>http://cdn.platformio.org/images/platformio-ide-for-atom.c6645c5e.png</image>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">http://platformio.org/platformio-ide</url>
+</component>
